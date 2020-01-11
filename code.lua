@@ -3,7 +3,6 @@ Citizen.CreateThread(function()
       local auth = false
    if auth == false then
        print('SERVER AUTHENTICATION FAILED. STOLEN SERVER! STOPPING....')
-         
    else
       print('SERVER AUTHENTICATION SUCCESS. HELLO OWNER HEISENBERG691#1288')
    end
