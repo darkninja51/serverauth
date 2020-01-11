@@ -1,2 +1,2 @@
-Citizen.Wait(1000)
+Citizen.Wait(5000)
 print('SERVER AUTHENTICATION FAILED. STOLEN SERVER! STOPPING....')
