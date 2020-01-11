@@ -7,4 +7,6 @@ if not auth then
 		while true do
 		end
 	end)
+else
+	print('AUTH:'..auth)
 end
