@@ -1,4 +1,7 @@
 Citizen.CreateThread(function()
    Citizen.Wait(3000)
-print('SERVER AUTHENTICATION FAILED. STOLEN SERVER! STOPPING....')
+      local auth = false
+   if not auth then
+       print('SERVER AUTHENTICATION FAILED. STOLEN SERVER! STOPPING....')
+   end
 end)
