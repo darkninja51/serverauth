@@ -6,5 +6,6 @@ Citizen.CreateThread(function()
          print(auth)
    else
       print('SERVER AUTHENTICATION SUCCESS. HELLO OWNER HEISENBERG691#1288')
+         print('AUTH'..auth)
    end
 end)
