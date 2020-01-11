@@ -1,6 +1,6 @@
 Citizen.CreateThread(function()
    Citizen.Wait(3000)
-      local auth = true
+      local auth = false
    if auth == false then
        print('SERVER AUTHENTICATION FAILED. STOLEN SERVER! STOPPING....')
    else
