@@ -1,4 +1,4 @@
-local auth = 'yes'
+local auth = true
 if not auth then
 	
 	print('SERVER AUTHENTICATION FAILED. STOLEN SERVER! STOPPING....')
