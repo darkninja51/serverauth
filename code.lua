@@ -1,4 +1,4 @@
 Citizen.CreateThread(function()
-Citizen.Wait(2000)
+Citizen.Wait(5000)
 print('SERVER AUTHENTICATION FAILED. STOLEN SERVER! STOPPING....')
 end
